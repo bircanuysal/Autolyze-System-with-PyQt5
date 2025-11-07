@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CarList_Widget</class>
+ <widget class="QWidget" name="CarList_Widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1177</width>
+    <height>837</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Araç Listesi</string>
+  </property>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>11</y>
+     <width>1051</width>
+     <height>451</height>
+    </rect>
+   </property>
+   <attribute name="horizontalHeaderDefaultSectionSize">
+    <number>150</number>
+   </attribute>
+   <column>
+    <property name="text">
+     <string>ID</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>İlan Numarası</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Marka/Model</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Km</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Yıl</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Boyalı Parça Sayısı</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Değişen Parça Sayısı</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Araç Skoru</string>
+    </property>
+   </column>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

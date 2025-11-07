@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CarRegistration_Widget</class>
+ <widget class="QWidget" name="CarRegistration_Widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>510</width>
+    <height>434</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Araç Kayıt</string>
+  </property>
+  <widget class="QWidget" name="gridLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>0</y>
+     <width>204</width>
+     <height>122</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <property name="horizontalSpacing">
+     <number>7</number>
+    </property>
+    <property name="verticalSpacing">
+     <number>1</number>
+    </property>
+    <item row="0" column="1">
+     <widget class="QComboBox" name="mark_ComboBox">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="maxVisibleItems">
+       <number>5</number>
+      </property>
+      <item>
+       <property name="text">
+        <string>Audi</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Bmw</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Mercedes Benz</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Volkswagen</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item row="3" column="1">
+     <widget class="QLineEdit" name="year_LineEdit"/>
+    </item>
+    <item row="3" column="0">
+     <widget class="QLabel" name="year_Text">
+      <property name="text">
+       <string>Üretim Yılı</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="model_Text">
+      <property name="text">
+       <string>Model</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="0">
+     <widget class="QLabel" name="km_Text">
+      <property name="text">
+       <string>Km</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="1">
+     <widget class="QLineEdit" name="km_LineEdit"/>
+    </item>
+    <item row="2" column="1">
+     <widget class="QComboBox" name="model_ComboBox"/>
+    </item>
+    <item row="0" column="0">
+     <widget class="QLabel" name="mark_Text">
+      <property name="text">
+       <string>Marka</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="0">
+     <widget class="QLabel" name="CarNo_Text">
+      <property name="text">
+       <string>İlan No</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="1">
+     <widget class="QLineEdit" name="CarNo_Line"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QGroupBox" name="paintedInfo_GroupBox">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>160</y>
+     <width>243</width>
+     <height>197</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Boya Bilgisi</string>
+   </property>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>223</width>
+      <height>157</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout_2">
+     <item row="0" column="0">
+      <widget class="QCheckBox" name="hoodP_CheckBox_2">
+       <property name="text">
+        <string>Kaput</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QCheckBox" name="rightFrontFenderP_CheckBox_2">
+       <property name="text">
+        <string>Sağ Ön Çam</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QCheckBox" name="leftFrontFenderP_CheckBox_2">
+       <property name="text">
+        <string>Sol Ön Çam</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QCheckBox" name="rightFrontDoorP_CheckBox_2">
+       <property name="text">
+        <string>Sağ Ön Kapı</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QCheckBox" name="leftFrontDoorP_CheckBox_2">
+       <property name="text">
+        <string>Sol Ön Kapı</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QCheckBox" name="rightRearDoorP_CheckBox_2">
+       <property name="text">
+        <string>Sağ Arka Kapı</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="0">
+      <widget class="QCheckBox" name="leftRearDoorP_CheckBox_2">
+       <property name="text">
+        <string>Sol Arka Kapı</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="1">
+      <widget class="QCheckBox" name="rightRearFenderP_CheckBox_2">
+       <property name="text">
+        <string>Sağ Arka Çam</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="0">
+      <widget class="QCheckBox" name="leftRearFenderP_CheckBox_2">
+       <property name="text">
+        <string>Sol Arka Çam</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="1">
+      <widget class="QCheckBox" name="roofP_CheckBox_2">
+       <property name="text">
+        <string>Tavan</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="0">
+      <widget class="QCheckBox" name="rearHoodP_CheckBox_2">
+       <property name="text">
+        <string>Bagaj</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="addCar_Button">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>360</y>
+     <width>111</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Aracı Ekle</string>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="ChagedInfo_GroupBox">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>160</y>
+     <width>239</width>
+     <height>197</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Değişen Bilgisi</string>
+   </property>
+   <widget class="QWidget" name="layoutWidget_2">
+    <property name="geometry">
+     <rect>
+      <x>8</x>
+      <y>20</y>
+      <width>223</width>
+      <height>157</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout_4">
+     <property name="spacing">
+      <number>5</number>
+     </property>
+     <item row="0" column="0">
+      <widget class="QCheckBox" name="hood_CheckBox_2">
+       <property name="text">
+        <string>Kaput</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QCheckBox" name="rightFrontFender_CheckBox_2">
+       <property name="text">
+        <string>Sağ Ön Çam</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="0">
+      <widget class="QCheckBox" name="rearHood_CheckBox_2">
+       <property name="text">
+        <string>Bagaj</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="1">
+      <widget class="QCheckBox" name="rightRearFender_CheckBox_2">
+       <property name="text">
+        <string>Sağ Arka Çam</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="0">
+      <widget class="QCheckBox" name="leftRearFender_CheckBox_2">
+       <property name="text">
+        <string>Sol Arka Çam</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QCheckBox" name="rightRearDoor_CheckBox_2">
+       <property name="text">
+        <string>Sağ Arka Kapı</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QCheckBox" name="leftFrontDoor_CheckBox_2">
+       <property name="text">
+        <string>Sol Ön Kapı</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QCheckBox" name="leftFrontFender_CheckBox_2">
+       <property name="text">
+        <string>Sol Ön Çam</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="1">
+      <widget class="QCheckBox" name="roof_CheckBox_2">
+       <property name="text">
+        <string>Tavan</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="0">
+      <widget class="QCheckBox" name="leftRearDoor_CheckBox_2">
+       <property name="text">
+        <string>Sol Arka Kapı</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QCheckBox" name="rightFrontDoor_CheckBox_2">
+       <property name="text">
+        <string>Sağ Ön Kapı</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="showCar_Button">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>360</y>
+     <width>121</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Aracı Listesi Göster</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
