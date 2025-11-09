@@ -1,6 +1,6 @@
 from PyQt5.QtWidgets import QWidget, QTableWidgetItem
-from Views.aracliste.AracListeView import Ui_CarList_Widget
-from Models.Database import Database
+from views.aracliste.AracListeView import Ui_CarList_Widget
+from models.Database import Database
 
 class AracListeController(QWidget):
     def __init__(self, user):

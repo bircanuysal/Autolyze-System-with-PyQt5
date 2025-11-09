@@ -1,9 +1,9 @@
 from PyQt5.QtWidgets import QApplication, QMainWindow, QMessageBox
-from Views.login.LoginView import Ui_MainWindow
 
-from Controllers.AracKayitController import AracKayitController
-from Models.UserModel import UserModel
-from Models.Database import Database
+from views.login.LoginView import Ui_MainWindow
+from controllers.AracKayitController import AracKayitController
+from models.UserModel import UserModel
+from models.Database import Database
 
 class LoginController(QMainWindow):
     def __init__(self):

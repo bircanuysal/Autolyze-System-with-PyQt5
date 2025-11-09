@@ -1,6 +1,6 @@
 import sqlite3
-from Models.UserModel import UserModel
-from Models.AracModel import AracModel
+from models.UserModel import UserModel
+from models.AracModel import AracModel
 
 class Database:
     def __init__(self, db_name="arac_kayit.db"):

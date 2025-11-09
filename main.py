@@ -1,6 +1,7 @@
 import sys
+
 from PyQt5.QtWidgets import QApplication
-from Controllers.LoginController import LoginController
+from controllers.LoginController import LoginController
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
